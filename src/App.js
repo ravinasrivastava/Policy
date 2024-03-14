@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/LicenseAgreement" element={<LicenseAgreement />} />
+          <Route exact path="/LicenseAgreement" element={<LicenseAgreement />} />
           <Route path="/" element={<LicenseAgreement />} />
-          <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
-          <Route path="/Termsandconditions" element={<Termsandconditions />} />
+          <Route exact path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+          <Route exact path="/Termsandconditions" element={<Termsandconditions />} />
 
           <Route />
         </Routes>
